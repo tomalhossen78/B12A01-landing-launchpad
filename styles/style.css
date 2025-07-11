@@ -30,6 +30,9 @@
     font-weight: bold;
     border-radius: 10px;
 }
+.btn-primary:hover, .btn-secondary:hover{
+    background-color: #f38b04;
+}
 /* header styles */
 header{
     background-image: url(../Assets/Hero-bg.png);
