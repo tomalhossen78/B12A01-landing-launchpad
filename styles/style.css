@@ -282,3 +282,29 @@ footer ul li a{
     color: #B3B3B3;
 
 }
+/* focus section */
+.focus{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 60px 30px;
+    margin-bottom: 120px;
+    border-radius: 14px;
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.focus-subtitle{
+    font-size: 16px;
+    color: #00000086;
+    
+}
+.focus img{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 48px;
+}
