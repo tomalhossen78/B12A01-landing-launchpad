@@ -103,6 +103,7 @@ main section{
     max-width: 1140px;
     margin: 0 auto;
     border-radius: 24px;
+    margin-bottom: 120px;
     
    
 }
@@ -131,4 +132,60 @@ main section{
     color: #00000082;
     margin: 0;
     padding: 0;
+}
+/* touch section styes */
+.touch{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.touch-column {
+    width: 50%;
+}
+.touch-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+input[type="email"], [type="text"]{
+    height: 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 80%;
+    padding: 25px 25px;
+    margin: 20px 0px;
+    border: none;
+    font-size: 20px;
+    border: 1px solid #D6DDED;
+    
+}
+label{
+    display: block;
+    font-size: 18px;
+}
+textarea{
+    border: 1px solid #D6DDED;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 80%;
+    padding: 25px 25px;
+    margin: 20px 0px;
+    font-size: 20px;
+    }
+input [type="submit"]{
+    display: block;
+}
+.btn-secondary{
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+    padding: 15px 205px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;  
+    text-align: center;
 }
