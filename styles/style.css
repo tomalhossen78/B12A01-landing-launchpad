@@ -59,4 +59,35 @@ nav a{
     text-align: center;
     margin:auto;
     margin-bottom: 37px;
+    color: #252432;
+}
+
+/* main styles */
+main{
+    background-color: #F5F8FF;
+}
+main section{
+    margin: 116px 0px;
+
+}
+
+/* action-section styles */
+.action-section{
+    display: flex;
+    max-width: 1140px;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 116px 0;
+}
+.action-title{
+    font-size: 42px;
+    color: #252432;
+}
+.action-description{
+    width: 517px;
+    font-size: 24px;
+    color: #2524328a;
+}
+.action-img img{
+    border-radius: 48px;
 }
